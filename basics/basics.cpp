@@ -196,4 +196,18 @@ scanf_s("%d", &x);
 	{
 		printf("You cant build triangle with this values");
 	}*/
+	//24. Multiplied
+	/*int a, b;
+	printf("Input a: \n");
+	scanf_s("%d", &a);
+	printf("Input b: \n");
+	scanf_s("%d", &b);
 
+	if (a % b == 0)
+	{
+		printf("multiplied");
+	}	
+	else
+	{
+		printf("not multiplied");
+	}*/
