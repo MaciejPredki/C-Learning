@@ -5,6 +5,8 @@
 
 int main()
 {
+	
+
 	return 0;
 
 }
@@ -177,4 +179,21 @@ scanf_s("%d", &x);
 
 		printf("sum = %d", sum);
 		*/
+	//23. Triangle
+	/*float a, b, c;
+	printf("Input a: \n");
+	scanf_s("%f", &a);
+	printf("Input b: \n");
+	scanf_s("%f", &b);
+	printf("Input c: \n");
+	scanf_s("%f", &c);
+
+	if (a + b > c && b + c > a && c + a > b)
+	{
+		printf("Paramiter = %f \n", a + b + c);
+	}
+	else
+	{
+		printf("You cant build triangle with this values");
+	}*/
 
