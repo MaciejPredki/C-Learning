@@ -5,58 +5,8 @@
 
 int main()
 {
-	int number;
 
-	printf("Write the month number: \n");
-	scanf_s("%d", &number);
 
-	if (number > 0 && number< 12)
-	{
-		switch (number)
-		{
-		case 1:
-			printf("January\n");
-			break;
-		case 2:
-			printf("February\n");
-			break;
-		case 3:
-			printf("March\n");
-			break;
-		case 4:
-			printf("April\n");
-			break;
-		case 5:
-			printf("May\n");
-			break;
-		case 6:
-			printf("June\n");
-			break;
-		case 7:
-			printf("July\n");
-			break;
-		case 8:
-			printf("August\n");
-			break;
-		case 9:
-			printf("September\n");
-			break;
-		case 10:
-			printf("October\n");
-			break;
-		case 11:
-			printf("November\n");
-			break;
-		case 12:
-			printf("December\n");
-			break;
-		
-		}
-	}
-	else
-	{
-		printf("Wrong month numbers");
-	}
 
 	return 0;
 
@@ -261,4 +211,90 @@ scanf_s("%d", &x);
 	else
 	{
 		printf("not multiplied");
+	}*/
+	//25. Months
+	/*	int number;
+
+	printf("Write the month number: \n");
+	scanf_s("%d", &number);
+
+	if (number > 0 && number< 12)
+	{
+		switch (number)
+		{
+		case 1:
+			printf("January\n");
+			break;
+		case 2:
+			printf("February\n");
+			break;
+		case 3:
+			printf("March\n");
+			break;
+		case 4:
+			printf("April\n");
+			break;
+		case 5:
+			printf("May\n");
+			break;
+		case 6:
+			printf("June\n");
+			break;
+		case 7:
+			printf("July\n");
+			break;
+		case 8:
+			printf("August\n");
+			break;
+		case 9:
+			printf("September\n");
+			break;
+		case 10:
+			printf("October\n");
+			break;
+		case 11:
+			printf("November\n");
+			break;
+		case 12:
+			printf("December\n");
+			break;
+		
+		}
+	}
+	else
+	{
+		printf("Wrong month numbers");
+	}
+*/
+	//26. Even numbers between 1 to 50
+	/*	for (int i = 1; i <= 50; i++)
+	{
+		if (i % 2 == 0)
+		{
+			printf("%d \n", i);
+		}
+	}*/
+	//30.List of square of each one of the even values from 1 to x :
+	/*	int val = 0;
+	printf("Input end value: ");
+	scanf_s("%d", &val);
+
+	for (int i = 0; i < val; i++)
+	{
+		if (i % 2 == 0)
+		{
+			printf("%d^2 = %d\n", i, i * i);
+		}
+	}*/
+	//32. Reminder = 3 
+	/*	int n;
+	printf("Input some number: ");
+	scanf_s("%d", &n);
+
+	for (int i = 1; i <= 100; i++)
+	{
+		if (i % n == 3)
+		{
+			printf("%d \n", i);
+		}
 	}*/
