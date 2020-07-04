@@ -3,10 +3,9 @@
 #include <math.h>
 
 
+
 int main()
 {
-
-
 
 	return 0;
 
@@ -298,3 +297,25 @@ scanf_s("%d", &x);
 			printf("%d \n", i);
 		}
 	}*/
+	//33.  Highest value and the input position.
+	/*
+	int numbers[5];
+
+	for (int i = 0; i < 5; i++)
+	{
+		printf("Input %d number: ", i);
+		scanf_s("%d", &numbers[i]);
+	}
+
+	int val, max = 0, pos = 0;
+	for (int j = 0; j < 5; j++)
+	{
+		if (numbers[j] > max)
+		{
+			max = numbers[j];
+			pos = j;
+		}
+		
+	}
+	printf("Highest number: %d on position: %d", max, pos);
+*/
