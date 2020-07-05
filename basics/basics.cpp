@@ -6,7 +6,7 @@
 
 int main()
 {
-
+	
 	return 0;
 
 }
@@ -318,4 +318,37 @@ scanf_s("%d", &x);
 		
 	}
 	printf("Highest number: %d on position: %d", max, pos);
+*/
+	//34. Sum of consecutive odd numbers from a given pair of integers
+	/*int num1, num2, sum = 0;
+	printf("Input first number : \n");
+	scanf_s("%d", &num1);
+	printf("Input second number : \n");
+	scanf_s("%d", &num2);
+	
+	if (num1 > num2)
+	{
+		for (int i = num2; i < num1; i++)
+		{
+			if ((i%2) != 0)
+			{
+				printf("%d \n", i);
+				sum += i;
+			}
+		}
+		
+	}
+	if (num2 > num1)
+	{
+		for (int j = num1; j < num2; j++)
+		{
+			if ((j%2) != 0)
+			{
+				printf("%d \n", j);
+				sum += j;
+			}
+		}
+		
+	}
+	printf("sum= %d \n", sum);
 */
