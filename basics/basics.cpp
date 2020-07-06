@@ -6,8 +6,7 @@
 
 int main()
 {
-	
-	return 0;
+
 
 }
 
@@ -352,3 +351,13 @@ scanf_s("%d", &x);
 	}
 	printf("sum= %d \n", sum);
 */
+	//41. Write a C program to print 3 numbers in a line, starting from 1 and print n lines. Accept number of lines (n, integer) from the user.
+	/*	int numbersOfLines = 0;
+	printf("How many lines? : \n");
+	scanf_s("%d", &numbersOfLines);
+
+	for (int i = 0; i < numbersOfLines*3; i+=3)
+	{
+		printf("%d %d %d \n", i, i + 1, i + 2);
+	}
+	return 0;*/
