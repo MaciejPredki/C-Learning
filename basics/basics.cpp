@@ -6,6 +6,28 @@
 
 int main()
 {
+	int numery[7];
+	int x = 0;
+
+	for (int i = 0; i < 5; i++)
+	{
+		printf("Input nr %d :", i);
+		scanf_s("%d", &x);
+		
+		if (x>0)
+		{
+			numery[i] = x;
+		}
+		else
+		{
+			numery[i] = 100;
+		}
+	}
+
+	for (int j = 0;  j < 5; j++)
+	{
+		printf("Nr %d is: %d\n", j, numery[j]);
+	}
 
 	return 0;
 
