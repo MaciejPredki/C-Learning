@@ -6,28 +6,7 @@
 
 int main()
 {
-	int numery[7];
-	int x = 0;
 
-	for (int i = 0; i < 5; i++)
-	{
-		printf("Input nr %d :", i);
-		scanf_s("%d", &x);
-		
-		if (x>0)
-		{
-			numery[i] = x;
-		}
-		else
-		{
-			numery[i] = 100;
-		}
-	}
-
-	for (int j = 0;  j < 5; j++)
-	{
-		printf("Nr %d is: %d\n", j, numery[j]);
-	}
 
 	return 0;
 
@@ -391,3 +370,44 @@ scanf_s("%d", &x);
 		sum =sum + (float)1 / i;
 	}
 	printf("Sum = %.2f", sum);*/
+	//48.
+	/*int numery[7];
+	int x = 0;
+
+	for (int i = 0; i < 5; i++)
+	{
+		printf("Input nr %d :", i);
+		scanf_s("%d", &x);
+		
+		if (x>0)
+		{
+			numery[i] = x;
+		}
+		else
+		{
+			numery[i] = 100;
+		}
+	}
+
+	for (int j = 0;  j < 5; j++)
+	{
+		printf("Nr %d is: %d\n", j, numery[j]);
+	}
+*/
+	//49.
+	/*	int numbers[7];
+	int x;
+
+	printf("Input first number into array: ");
+	scanf_s("%d", &x);
+
+	numbers[0] = x;
+
+	printf("numbers [0] = %d \n", numbers[0]);
+	for (int i = 1; i < 7; i++)
+	{
+		x = x * 3;
+		numbers[i] = x;
+
+		printf("numbers [%d] = %d \n",i, numbers[i]);
+	}*/
