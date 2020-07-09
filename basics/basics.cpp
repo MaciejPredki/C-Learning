@@ -6,7 +6,7 @@
 
 int main()
 {
-	
+
 
 
 	return 0;
@@ -430,3 +430,25 @@ scanf_s("%d", &x);
 		}
 	}
 */
+	//51
+	/*	int temp, x;
+	int numbers[] = { 10, 15, 20, 25, 30, 35 };
+
+	for (int i = 0; i < 6; i++)
+	{
+		printf("%d\n", numbers[i]);
+	}
+
+	printf("-----------------\n");
+	for (int j = 0; j < 6; j++)
+	{
+		if (j < 6/2)
+		{
+			temp = numbers[j];
+			numbers[j] = numbers[6 - (j+1)];
+			numbers[6 - (j+1)] = temp;
+		}
+
+		printf("%d \n", numbers[j]);
+
+	}*/
