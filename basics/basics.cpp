@@ -6,6 +6,7 @@
 
 int main()
 {
+	
 
 
 	return 0;
@@ -411,3 +412,21 @@ scanf_s("%d", &x);
 
 		printf("numbers [%d] = %d \n",i, numbers[i]);
 	}*/
+	//50
+	/*int numbers[5], x;
+
+	for (int i = 0; i < 5; i++)
+	{
+		printf("Input %d number: \n", i);
+		scanf_s("%d", &x);
+		numbers[i] = x;
+	}
+
+	for (int j = 0; j < 5; j++)
+	{
+		if (numbers[j] < 5)
+		{
+			printf("numbers[%d] is < than 5 and = %d\n", j, numbers[j]);
+		}
+	}
+*/
