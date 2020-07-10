@@ -452,3 +452,17 @@ scanf_s("%d", &x);
 		printf("%d \n", numbers[j]);
 
 	}*/
+	//57. reverse number
+	/*	int number;
+	int x, y = 0;
+	printf("Input the number to reverse: ");
+	scanf_s("%d", &number);
+
+	while (number >= 1)
+	{
+		x = number % 10;
+		y = y * 10 + x;
+		number /= 10;
+	}
+
+	printf("%d\n", y);*/
