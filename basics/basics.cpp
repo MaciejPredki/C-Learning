@@ -8,7 +8,6 @@ int main()
 {
 
 
-
 	return 0;
 
 }
@@ -466,3 +465,32 @@ scanf_s("%d", &x);
 	}
 
 	printf("%d\n", y);*/
+	//58.
+	/*	float numbers[4];
+	float min = 0, max = 0;
+
+	for (int i = 0; i < 4; i++)
+	{
+		printf("input %d number: ", i);
+		scanf_s("%f", &numbers[i]);
+	}
+	min = numbers[0];
+	max = numbers[0];
+	for (int j = 0; j < 4; j++)
+	{
+	
+		if (numbers[j] < min)
+		{
+			min = numbers[j];
+
+		}
+		else 
+		{
+			max = numbers[j];
+		}
+	}
+
+	printf("max = %.2f\n", max);
+	printf("min = %.2f\n", min);
+
+	printf("diff = %.2f", max - min);*/
