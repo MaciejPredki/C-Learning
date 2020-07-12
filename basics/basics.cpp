@@ -494,3 +494,21 @@ scanf_s("%d", &x);
 	printf("min = %.2f\n", min);
 
 	printf("diff = %.2f", max - min);*/
+	//59
+	/*	int num, sum = 0;
+
+	printf("Input any number: ");
+	scanf_s("%d", &num);
+	printf("1 + ");
+
+	for (int i = 0; i < num; i++)
+	{
+		printf(" 1/%d +", i);
+		
+	}
+	for (int i = 1; i <= num; i++)
+	{
+		sum = sum + i;
+	}
+	printf(" 1/%d", num);
+	printf("\nSum = 1/%d", sum + 1 / num);*/
