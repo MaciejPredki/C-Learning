@@ -8,6 +8,7 @@ int main()
 {
 
 
+
 	return 0;
 
 }
@@ -512,3 +513,43 @@ scanf_s("%d", &x);
 	}
 	printf(" 1/%d", num);
 	printf("\nSum = 1/%d", sum + 1 / num);*/
+	//60 Enumeration
+	/*	enum {sun, mon, tue, wed, thu, fri, sat };
+
+	printf("Sun = %d\n", sun);
+	printf("Mon = %d\n", mon);
+	printf("tue = %d\n", tue);
+	printf("Wed = %d\n", wed);
+	printf("Thu = %d\n", thu);
+	printf("Fri = %d\n", fri);
+	printf("Sat = %d\n", sat);
+
+*/
+	//61
+	/*	float x;
+	printf("Input value: ");
+	scanf_s("%f", &x);
+	if (x != 0)
+	{
+		printf("Value of sin (1/x) = %.4f", sin(1 / x));
+	}
+	else
+	{
+		printf("x can't be equal 0");
+	}*/
+	//62
+	/*	int n, x = 1, sum = 0;
+	
+	printf("Input number:");
+	scanf_s("%d", &n);
+
+	if (n > 0 && n <= 100)
+	{
+		for (int i = 1; x <= n; i++)
+		{
+			sum += pow(x, 4);
+			x += i;
+		}
+		printf(" sum = %d ", sum);
+	}
+*/
