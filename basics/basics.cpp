@@ -538,6 +538,20 @@ scanf_s("%d", &x);
 		printf("x can't be equal 0");
 	}*/
 	//62
+	/*	int number, x = 0, sum = 0;
+
+	printf("Input number: ");
+	scanf_s("%d", &number);
+	
+	for (int i = 0; i < 3; i++)
+	{
+		x = number % 10;
+		number -= x;
+		number /= 10;
+		sum += x;
+	}
+	printf("sum = %d", sum);*/
+	//63
 	/*	int n, x = 1, sum = 0;
 	
 	printf("Input number:");
@@ -552,4 +566,40 @@ scanf_s("%d", &x);
 		}
 		printf(" sum = %d ", sum);
 	}
+*/
+	//64
+	/*	int i = 0, num[100], sum = 0, max = -100, min, avg ;
+	
+	while (1)
+	{
+		printf("Input positive numbers #%d: ", i);
+		scanf_s("%d", &num[i]);
+		
+		if (num[i] <= 0)
+		{
+			break;
+		}
+		sum = sum + num[i];
+		i++;
+	} 
+
+	min = num[0];
+	for (int j = 0; j < i; j++)
+	{
+		if (num[j] > 0 && num[j] > max)
+		{
+			max = num[j];
+		}
+		if (num[j] > 0 && num[j] < min)
+		{
+			min = num[j];
+		}
+	}
+	avg = sum / i;
+	
+	printf("sum = %d\n", sum);
+	printf("max = %d\n", max);
+	printf("min = %d\n", min);
+	printf("avg = %d\n", avg);
+	printf("Number of integers  = %d\n", i);
 */
