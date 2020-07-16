@@ -44,9 +44,9 @@ int main()
 
 
 
-
+  /*
 	//Highest number from 3 int:
-	/*int a = 15;
+	int a = 15;
 int b = 15;
 int c = 25;
 
@@ -65,9 +65,9 @@ else
 {
 	printf("%i", b);
 }
-*/
+
 	//Fuel consumption:
-	/*
+	
 int distance = 0;
 float fuel = 0;
 printf("Distance: \n");
@@ -76,9 +76,9 @@ printf("Fuel: \n");
 scanf_s("%f", &fuel);
 float cons = distance / fuel;
 printf("%.3f", cons);
-*/
+
 	//Distance between the two points:
-	/*
+	
 int x1, x2, y1, y2;
 
 printf("Podaj x1: ");
@@ -93,9 +93,9 @@ scanf_s("%i", &y2);
 float distance = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
 
 printf("%f", distance);
-*/
+
 	//4 integers
-	/*int p, q, r, s;
+	int p, q, r, s;
 
 printf("Input p: \n");
 scanf_s("%d", &p);
@@ -116,9 +116,9 @@ if (p > 0 && q > 0 && r > 0 && p%2 == 0 && q > r && s > p && r+s > p+q)
 else
 {
 	printf("Wrong valuse");
-}*/
+}
 	//Roots of Bhaskara’s formula
-	/*
+	
 float a, b, c, sqr;
 
 printf("Input a: \n");
@@ -147,9 +147,9 @@ printf("Input c: \n");
 	{
 		printf("a can't be equal 0");
 	}
-*/
+
 	//21.range where integer belongs
-	/*
+	
 int x;
 printf("Input x : \n");
 scanf_s("%d", &x);
@@ -176,9 +176,9 @@ scanf_s("%d", &x);
 		return 1;
 	}
 
-	*/
+	
 	//22. Counting odds 
-	/*	int a, b, c, d, sum;
+	int a, b, c, d, sum;
 		printf("Input a: \n");
 		scanf_s("%d", &a);
 		printf("Input b: \n");
@@ -206,9 +206,9 @@ scanf_s("%d", &x);
 		}
 
 		printf("sum = %d", sum);
-		*/
+		
 	//23. Triangle
-	/*float a, b, c;
+	float a, b, c;
 	printf("Input a: \n");
 	scanf_s("%f", &a);
 	printf("Input b: \n");
@@ -223,9 +223,9 @@ scanf_s("%d", &x);
 	else
 	{
 		printf("You cant build triangle with this values");
-	}*/
+	}
 	//24. Multiplied
-	/*int a, b;
+	int a, b;
 	printf("Input a: \n");
 	scanf_s("%d", &a);
 	printf("Input b: \n");
@@ -238,9 +238,9 @@ scanf_s("%d", &x);
 	else
 	{
 		printf("not multiplied");
-	}*/
+	}
 	//25. Months
-	/*	int number;
+		int number;
 
 	printf("Write the month number: \n");
 	scanf_s("%d", &number);
@@ -292,17 +292,17 @@ scanf_s("%d", &x);
 	{
 		printf("Wrong month numbers");
 	}
-*/
+
 	//26. Even numbers between 1 to 50
-	/*	for (int i = 1; i <= 50; i++)
+		for (int i = 1; i <= 50; i++)
 	{
 		if (i % 2 == 0)
 		{
 			printf("%d \n", i);
 		}
-	}*/
+	}
 	//30.List of square of each one of the even values from 1 to x :
-	/*	int val = 0;
+		int val = 0;
 	printf("Input end value: ");
 	scanf_s("%d", &val);
 
@@ -312,9 +312,9 @@ scanf_s("%d", &x);
 		{
 			printf("%d^2 = %d\n", i, i * i);
 		}
-	}*/
+	}
 	//32. Reminder = 3 
-	/*	int n;
+		int n;
 	printf("Input some number: ");
 	scanf_s("%d", &n);
 
@@ -324,9 +324,9 @@ scanf_s("%d", &x);
 		{
 			printf("%d \n", i);
 		}
-	}*/
+	}
 	//33.  Highest value and the input position.
-	/*
+	
 	int numbers[5];
 
 	for (int i = 0; i < 5; i++)
@@ -346,9 +346,9 @@ scanf_s("%d", &x);
 		
 	}
 	printf("Highest number: %d on position: %d", max, pos);
-*/
+
 	//34. Sum of consecutive odd numbers from a given pair of integers
-	/*int num1, num2, sum = 0;
+	int num1, num2, sum = 0;
 	printf("Input first number : \n");
 	scanf_s("%d", &num1);
 	printf("Input second number : \n");
@@ -379,9 +379,9 @@ scanf_s("%d", &x);
 		
 	}
 	printf("sum= %d \n", sum);
-*/
+
 	//41. Write a C program to print 3 numbers in a line, starting from 1 and print n lines. Accept number of lines (n, integer) from the user.
-	/*	int numbersOfLines = 0;
+		int numbersOfLines = 0;
 	printf("How many lines? : \n");
 	scanf_s("%d", &numbersOfLines);
 
@@ -389,16 +389,16 @@ scanf_s("%d", &x);
 	{
 		printf("%d %d %d \n", i, i + 1, i + 2);
 	}
-	return 0;*/
+	return 0;
 	//45. Write a C program to calculate the value of S where S = 1 + 1/2 + 1/3 + … + 1/50.
-	/*	float sum = 0;
+		float sum = 0;
 	for (int i = 1; i <= 50; i++)
 	{
 		sum =sum + (float)1 / i;
 	}
-	printf("Sum = %.2f", sum);*/
+	printf("Sum = %.2f", sum);
 	//48.
-	/*int numery[7];
+	int numery[7];
 	int x = 0;
 
 	for (int i = 0; i < 5; i++)
@@ -420,9 +420,9 @@ scanf_s("%d", &x);
 	{
 		printf("Nr %d is: %d\n", j, numery[j]);
 	}
-*/
+
 	//49.
-	/*	int numbers[7];
+		int numbers[7];
 	int x;
 
 	printf("Input first number into array: ");
@@ -437,9 +437,9 @@ scanf_s("%d", &x);
 		numbers[i] = x;
 
 		printf("numbers [%d] = %d \n",i, numbers[i]);
-	}*/
+	}
 	//50
-	/*int numbers[5], x;
+	int numbers[5], x;
 
 	for (int i = 0; i < 5; i++)
 	{
@@ -455,9 +455,9 @@ scanf_s("%d", &x);
 			printf("numbers[%d] is < than 5 and = %d\n", j, numbers[j]);
 		}
 	}
-*/
+
 	//51
-	/*	int temp, x;
+	int temp, x;
 	int numbers[] = { 10, 15, 20, 25, 30, 35 };
 
 	for (int i = 0; i < 6; i++)
@@ -477,9 +477,9 @@ scanf_s("%d", &x);
 
 		printf("%d \n", numbers[j]);
 
-	}*/
+	}
 	//57. reverse number
-	/*	int number;
+		int number;
 	int x, y = 0;
 	printf("Input the number to reverse: ");
 	scanf_s("%d", &number);
@@ -491,9 +491,9 @@ scanf_s("%d", &x);
 		number /= 10;
 	}
 
-	printf("%d\n", y);*/
+	printf("%d\n", y);
 	//58.
-	/*	float numbers[4];
+		float numbers[4];
 	float min = 0, max = 0;
 
 	for (int i = 0; i < 4; i++)
@@ -520,9 +520,9 @@ scanf_s("%d", &x);
 	printf("max = %.2f\n", max);
 	printf("min = %.2f\n", min);
 
-	printf("diff = %.2f", max - min);*/
+	printf("diff = %.2f", max - min);
 	//59
-	/*	int num, sum = 0;
+		int num, sum = 0;
 
 	printf("Input any number: ");
 	scanf_s("%d", &num);
@@ -538,9 +538,9 @@ scanf_s("%d", &x);
 		sum = sum + i;
 	}
 	printf(" 1/%d", num);
-	printf("\nSum = 1/%d", sum + 1 / num);*/
+	printf("\nSum = 1/%d", sum + 1 / num);
 	//60 Enumeration
-	/*	enum {sun, mon, tue, wed, thu, fri, sat };
+	enum {sun, mon, tue, wed, thu, fri, sat };
 
 	printf("Sun = %d\n", sun);
 	printf("Mon = %d\n", mon);
@@ -550,9 +550,9 @@ scanf_s("%d", &x);
 	printf("Fri = %d\n", fri);
 	printf("Sat = %d\n", sat);
 
-*/
+
 	//61
-	/*	float x;
+	float x;
 	printf("Input value: ");
 	scanf_s("%f", &x);
 	if (x != 0)
@@ -562,9 +562,9 @@ scanf_s("%d", &x);
 	else
 	{
 		printf("x can't be equal 0");
-	}*/
+	}
 	//62
-	/*	int number, x = 0, sum = 0;
+	int number, x = 0, sum = 0;
 
 	printf("Input number: ");
 	scanf_s("%d", &number);
@@ -576,9 +576,9 @@ scanf_s("%d", &x);
 		number /= 10;
 		sum += x;
 	}
-	printf("sum = %d", sum);*/
+	printf("sum = %d", sum);
 	//63
-	/*	int n, x = 1, sum = 0;
+	int n, x = 1, sum = 0;
 	
 	printf("Input number:");
 	scanf_s("%d", &n);
@@ -592,9 +592,9 @@ scanf_s("%d", &x);
 		}
 		printf(" sum = %d ", sum);
 	}
-*/
+
 	//64
-	/*	int i = 0, num[100], sum = 0, max = -100, min, avg ;
+	int i = 0, num[100], sum = 0, max = -100, min, avg ;
 	
 	while (1)
 	{
