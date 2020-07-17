@@ -1,39 +1,25 @@
 #include <iostream>
 #include <stdio.h>
 #include <math.h>
-
+#include <stdlib.h> 
+#include <time.h> 
 
 
 int main()
 {
-	int n, flag, counter = 0;
+	float ran;
+	FILE* fptr;
+
+	printf("50\n");
+
+	srand(time(NULL));
 
 
-	for (int i = 2; i < 200; i++)
+	for (int i = 0; i < 50; i++)
 	{
-		flag = 1;
-
-		for (int j = 2; j <= i / 2 && flag == 1; j++)
-		{
-			if (i % j == 0)
-			{
-				
-				flag = 0;
-			}
-		}
-		if (flag == 1)
-		{
-			printf("%d ", i);
-			counter++;
-		}
-		
-		if (counter >= 10)
-		{
-			counter = 0;
-			printf("\n");
-		}
+		ran=rand("")
+		fprintf(fptr, "%d\n", )
 	}
-
 
 	return 0;
 
@@ -628,4 +614,35 @@ scanf_s("%d", &x);
 	printf("min = %d\n", min);
 	printf("avg = %d\n", avg);
 	printf("Number of integers  = %d\n", i);
+
+	//65 
+
+		int n, flag, counter = 0;
+
+
+	for (int i = 2; i < 200; i++)
+	{
+		flag = 1;
+
+		for (int j = 2; j <= i / 2 && flag == 1; j++)
+		{
+			if (i % j == 0)
+			{
+
+				flag = 0;
+			}
+		}
+		if (flag == 1)
+		{
+			printf("%d ", i);
+			counter++;
+		}
+
+		if (counter >= 10)
+		{
+			counter = 0;
+			printf("\n");
+		}
+	}
+
 */
