@@ -8,19 +8,6 @@
 int main()
 {
 
-	long int p;
-	int n;
-	double q;
-
-	p = 1;
-	for (n = 0; n < 11; ++n) {
-		if (n == 0)
-			p = 1;
-		else
-			p = p * 2;
-		q = 1.0 / (double)p;
-		printf("\n%2d   %8d     %20.12lf", n, p, q);
-	}
 
 
 	return 0;
@@ -665,3 +652,18 @@ scanf_s("%d", &x);
 	}
 	printf("x=%f; n=%d; \nx to power n=%f", x, n, y);
 	return 0;*/
+
+	/*	long int p;
+	int n;
+	double q;
+
+	p = 1;
+	for (n = 0; n < 11; ++n) {
+		if (n == 0)
+			p = 1;
+		else
+			p = p * 2;
+		q = 1.0 / (double)p;
+		printf("\n%2d   %8d     %20.12lf", n, p, q);
+	}
+*/
